@@ -113,6 +113,5 @@ ISR(TIMER1_OVF_vect)
 }
 ```
 ### Knight Rider
-
- ![your![figure2](https://user-images.githubusercontent.com/91128817/137791353-bc291409-5c28-422d-957a-0e81f4e8487f.png)
- figure]()
+ 
+![figure2](https://user-images.githubusercontent.com/91128817/137791724-ff0d88e2-df9f-413f-a8a9-02225a812986.png)
