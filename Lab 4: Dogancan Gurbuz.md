@@ -1,4 +1,4 @@
-
+# Lab 4:Dogancan Gurbuz
 
 https://github.com/DogancanG/Digital-electronics-2/tree/main/Labs/04-interrupts/timer
 
@@ -112,3 +112,7 @@ ISR(TIMER1_OVF_vect)
 	
 }
 ```
+### Knight Rider
+
+ ![your figure]![WhatsApp Image 2021-10-18 at 20 41 40](https://user-images.githubusercontent.com/91128817/137788469-cdc3195f-00e6-4a9a-bf09-73de871757e5.jpeg)
+()
