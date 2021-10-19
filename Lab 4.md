@@ -40,7 +40,8 @@ A special case of a function is when it is used to service an interrupt - common
 #define TIM0_overflow_interrupt_disable() TIMSK0 &= ~(1<<TOIE0);
 ```
 3.
-![WhatsApp Image 2021-10-19 at 10 12 15](https://user-images.githubusercontent.com/91128817/137870066-0cbfb06b-4592-40e8-8a73-ec1322a1edc7.jpeg)
+![WhatsApp Image 2021-10-19 at 10 14 06](https://user-images.githubusercontent.com/91128817/137870263-a49949fc-20f8-488d-90f6-ae7a7f324de3.jpeg)
+
 
 
 ### Knight Rider
