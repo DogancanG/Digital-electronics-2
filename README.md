@@ -7,7 +7,7 @@
 ###### H6
 *Hello Arjanit*
 _Hello Ozan_
-**Ozan Dinc
+**Ozan Dinc**
 _Arjanit_**
 1. First Order 
 ..* Sub-list
