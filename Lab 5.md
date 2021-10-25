@@ -23,3 +23,14 @@ connected to a, b , c, d , e, f, g pins of seven segment display in common Anode
 The anode(+) side's of Common Cathode led are connected to a, b , c, d , e, f, g pins
 of seven segment display
 2.
+
+
+
+
+
+
+
+### Kitchen alarm
+
+![WhatsApp Image 2021-10-25 at 23 55 44](https://user-images.githubusercontent.com/91128817/138776671-2eda179b-e240-4c4c-929a-7c3c974e81b4.jpeg)
+
