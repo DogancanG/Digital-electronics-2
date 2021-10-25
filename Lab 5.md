@@ -1,4 +1,4 @@
-# Lab 5: YOUR_FIRSTNAME FAMILYNAME
+# Lab 5: Dogancan Gurbuz
 
 
 
@@ -46,7 +46,6 @@ ISR(TIMER1_OVF_vect)
 }
 ISR(TIMER0_OVF_vect)
 {
-	
 	pos++;
 	if (pos>1){
 		pos=0;
@@ -56,20 +55,11 @@ ISR(TIMER0_OVF_vect)
 	else {
 		SEG_update_shift_regs(val1,pos);
 	}
-	
-
-	// WRITE YOUR CODE HERE
-
 }
-/************************
- * Function: Timer/Counter0 overflow interrupt
- * Purpose:  Display tens and units of a counter at SSD.
- ************************/
+
 ISR(TIMER0_OVF_vect)
 {
     static uint8_t pos = 0;
-
-    // WRITE YOUR CODE HERE
 
 }
 ```
