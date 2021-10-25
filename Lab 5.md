@@ -23,8 +23,57 @@ connected to a, b , c, d , e, f, g pins of seven segment display in common Anode
 The anode(+) side's of Common Cathode led are connected to a, b , c, d , e, f, g pins
 of seven segment display
 2.
+```c
+static uint8_t pos = 0;
+static uint8_t val0=0;
+static uint8_t val1=0;
+ISR(TIMER1_OVF_vect)
+{
+    //static uint8_t val0 = 0;  // This line will only run the first time
+    // WRITE YOUR CODE HERE
+   // static uint8_t val1=0;  
+    val0++;
+	
+    if(val0 > 9){
+		val0 = 0;
+		val1++;
+		if(val1>5){
+			val1=0;
+		}
+	}
+	SEG_update_shift_regs(val0, 0);
+	
+}
+ISR(TIMER0_OVF_vect)
+{
+	
+	pos++;
+	if (pos>1){
+		pos=0;
+		SEG_update_shift_regs(val0,pos);
+	}
+	
+	else {
+		SEG_update_shift_regs(val1,pos);
+	}
+	
 
+	// WRITE YOUR CODE HERE
 
+}
+/************************
+ * Function: Timer/Counter0 overflow interrupt
+ * Purpose:  Display tens and units of a counter at SSD.
+ ************************/
+ISR(TIMER0_OVF_vect)
+{
+    static uint8_t pos = 0;
+
+    // WRITE YOUR CODE HERE
+
+}
+```
+3.
 
 
 
