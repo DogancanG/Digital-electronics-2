@@ -2,7 +2,7 @@
 
 
 
-   [https://github.com/...]https://github.com/DogancanG/Digital-electronics-2
+   [https://github.com/DogancanG/Digital-electronics-2]
 
 
 ### 7-segment library
