@@ -22,6 +22,9 @@ and the common cathode should be grounded. The Cathode(-) side of led's are
 connected to a, b , c, d , e, f, g pins of seven segment display in common Anode.
 The anode(+) side's of Common Cathode led are connected to a, b , c, d , e, f, g pins
 of seven segment display
+
+
+
 2.
 ```c
 static uint8_t pos = 0;
@@ -62,9 +65,11 @@ ISR(TIMER0_OVF_vect)
 }
 ```
 3.
+
+
+
+
 ![WhatsApp Image 2021-10-26 at 00 20 31](https://user-images.githubusercontent.com/91128817/138778952-e5e8fb44-3e2c-40bd-a14b-37252bdf928b.jpeg)
-
-
 
 
 
