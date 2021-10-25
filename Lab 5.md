@@ -29,9 +29,7 @@ static uint8_t val0=0;
 static uint8_t val1=0;
 ISR(TIMER1_OVF_vect)
 {
-    //static uint8_t val0 = 0;  // This line will only run the first time
-    // WRITE YOUR CODE HERE
-   // static uint8_t val1=0;  
+    
     val0++;
 	
     if(val0 > 9){
