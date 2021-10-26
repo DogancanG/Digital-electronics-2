@@ -68,8 +68,7 @@ ISR(TIMER0_OVF_vect)
 
 
 
-
-![WhatsApp Image 2021-10-26 at 00 20 31](https://user-images.githubusercontent.com/91128817/138778952-e5e8fb44-3e2c-40bd-a14b-37252bdf928b.jpeg)
+![WhatsApp Image 2021-10-26 at 11 00 33](https://user-images.githubusercontent.com/91128817/138846329-aa38f962-59ac-4d4b-9379-7e2622e31fed.jpeg)
 
 
 
