@@ -68,11 +68,13 @@ ISR(TIMER0_OVF_vect)
 
 
 
-![WhatsApp Image 2021-10-26 at 11 00 33](https://user-images.githubusercontent.com/91128817/138846329-aa38f962-59ac-4d4b-9379-7e2622e31fed.jpeg)
+![WhatsApp Image 2021-10-26 at 00 20 31](https://user-images.githubusercontent.com/91128817/138846914-f987e46c-c741-45b6-b355-ec40613051fb.jpeg)
+
 
 
 
 ### Kitchen alarm
 
-![WhatsApp Image 2021-10-25 at 23 55 44](https://user-images.githubusercontent.com/91128817/138776671-2eda179b-e240-4c4c-929a-7c3c974e81b4.jpeg)
+![WhatsApp Image 2021-10-26 at 11 00 33](https://user-images.githubusercontent.com/91128817/138846940-9d03e5cb-927b-4f8a-8444-58cbc9908f31.jpeg)
+
 
