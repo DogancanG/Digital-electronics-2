@@ -48,3 +48,4 @@ uint8_t customChar[16] = {
 
 
 ### Kitchen alarm
+![IMG_20211101_230832](https://user-images.githubusercontent.com/91128817/139748854-5599e7bb-6993-46f4-9fbe-19ea7752f6f3.jpg)
