@@ -79,13 +79,15 @@ ISR(ADC_vect)
 
 1. (Hand-drawn) picture of UART signal when transmitting three character data `De2` in 4800 7O2 mode (7 data bits, odd parity, 2 stop bits, 4800&nbsp;Bd).
 
-   ![IMG_20211108_221538](https://user-images.githubusercontent.com/91128817/140819371-b00a2ad9-bcdd-4fca-9db0-1f8e84edc27a.jpg)
+   ![WhatsApp Image 2021-11-09 at 00 40 14](https://user-images.githubusercontent.com/91128817/140835668-b4e38e42-0be9-4024-b6c4-454fa1a00149.jpeg)
+
 
 
 
 2. Flowchart figure for function `uint8_t get_parity(uint8_t data, uint8_t type)` which calculates a parity bit of input 8-bit `data` according to parameter `type`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![IMG_20211109_001758](https://user-images.githubusercontent.com/91128817/140834671-5e043dbe-5e9b-41b8-b031-990ce6a9be6c.jpg)
+   ![WhatsApp Image 2021-11-09 at 00 40 13(1)](https://user-images.githubusercontent.com/91128817/140835687-f9c26e16-c9e9-4578-80f0-88b3075a4f59.jpeg)
+
 
 
 ### Temperature meter
@@ -94,5 +96,6 @@ Consider an application for temperature measurement and display. Use temperature
 
 1. Scheme of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![IMG_20211109_002725](https://user-images.githubusercontent.com/91128817/140834691-e08341e7-f3a5-4f96-89ad-5469f5d29d9a.jpg)
+   ![WhatsApp Image 2021-11-09 at 00 40 13](https://user-images.githubusercontent.com/91128817/140835696-53687704-d284-4ce6-a944-fc7dec5cbc6c.jpeg)
+
 
