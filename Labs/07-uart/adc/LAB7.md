@@ -10,11 +10,11 @@ https://github.com/DogancanG/Digital-electronics-2/new/main/Labs/07-uart/adc
 
    | **Push button** | **PC0[A0] voltage** | **ADC value (calculated)** | **ADC value (measured)** |
    | :-: | :-: | :-: | :-: |
-   | Right  | 0&nbsp;V | 0   | 0023 |
-   | Up     | 0.495&nbsp;V | 101 | 9903 |
-   | Down   |   1.203V    |   246  |2563  |
-   | Left   |   1.970V    |  403   | 4093 |
-   | Select |    3.182V  |  651   |6393  |
+   | Right  | 0&nbsp;V | 0   | 0 |
+   | Up     | 0.495&nbsp;V | 101 | 100 |
+   | Down   |   1.203V    |   246  |256  |
+   | Left   |   1.970V    |  403   | 410 |
+   | Select |    3.182V  |  651   |640  |
    | none   |    5V   |   1023  | 1023 |
 2. Code listing of ACD interrupt service routine for sending data to the LCD/UART and identification of the pressed button. Always use syntax highlighting and meaningful comments:
 
@@ -85,7 +85,8 @@ ISR(ADC_vect)
 
 2. Flowchart figure for function `uint8_t get_parity(uint8_t data, uint8_t type)` which calculates a parity bit of input 8-bit `data` according to parameter `type`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+   ![IMG_20211109_001758](https://user-images.githubusercontent.com/91128817/140834671-5e043dbe-5e9b-41b8-b031-990ce6a9be6c.jpg)
+
 
 ### Temperature meter
 
@@ -93,4 +94,5 @@ Consider an application for temperature measurement and display. Use temperature
 
 1. Scheme of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+   ![IMG_20211109_002725](https://user-images.githubusercontent.com/91128817/140834691-e08341e7-f3a5-4f96-89ad-5469f5d29d9a.jpg)
+
