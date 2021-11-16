@@ -98,11 +98,18 @@ ISR(TIMER1_OVF_vect) {
 
 ![WhatsApp Image 2021-11-16 at 10 12 38](https://user-images.githubusercontent.com/91128817/141957721-45cd714a-8e65-49eb-a320-676287fcc267.jpeg)
  
+
+
+
+
 ### Meteo station
 
 Consider an application for temperature and humidity measurement and display. Use combine sensor DHT12, real time clock DS3231, LCD, and one LED. Application display time in hours:minutes:seconds at LCD, measures both temperature and humidity values once per minut, display both values on LCD, and when the temperature is too high, the LED starts blinking.
 
 1. FSM state diagram picture of meteo station. The image can be drawn on a computer or by hand. Concise name of individual states and describe the transitions between them.
+
+
+
 ![WhatsApp Image 2021-11-16 at 10 16 40](https://user-images.githubusercontent.com/91128817/141957767-8a0e2f19-4807-4723-a1ca-fa9cc08ff8fb.jpeg)
 
    
